@@ -17,6 +17,6 @@ for (int i = 0; i<=x; i++) {
     sum = sum + i;
 }
 
-System.out.println("The sum of this input nunmber is " + sum);
+System.out.println("The sum of this input number is " + sum + ".");
     }
 }
