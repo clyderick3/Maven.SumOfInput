@@ -6,17 +6,16 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args){
-//int n = 100;
-int x = 0;
-int sum = 0;
-Scanner requestNumber = new Scanner(System.in);
-System.out.println("Input your number.");
-x = requestNumber.nextInt();
+        int userInput = 0; //number user submits. Maximum value.
+        int sum = 0;
+        Scanner requestNumber = new Scanner(System.in);
+        System.out.println("Input your number.");
+        userInput = requestNumber.nextInt();
 
-for (int i = 0; i<=x; i++) {
-    sum = sum + i;
-}
+        for (int i = 0; i <= userInput ; i++) {
+            sum = sum + i;
+        }
 
-System.out.println("The sum of this input number is " + sum + ".");
-    }
+        System.out.println("The sum of this input number is " + sum + ".");
+            }
 }
